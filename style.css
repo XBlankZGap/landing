@@ -379,6 +379,29 @@ color:#B98EFF;
 color:white;
 }
 
+/* Contact cards are <a> elements themselves */
+a.project-card{
+color:#B98EFF;
+}
+
+a.project-card h3,
+a.project-card p,
+a.project-card .project-category{
+color:inherit;
+}
+
+a.project-card h3{
+color:#F8F9FB;
+}
+
+a.project-card p{
+color:#A0A6B3;
+}
+
+a.project-card:hover h3{
+color:white;
+}
+
 /* ==========================
    RESPONSIVE
 ========================== */
