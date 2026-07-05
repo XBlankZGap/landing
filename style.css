@@ -151,13 +151,6 @@ object-fit:cover;
 position:relative;
 z-index:1;
 border:1px solid rgba(159, 103, 255, 0.15);
-animation:float 6s ease-in-out infinite;
-}
-
-@keyframes float{
-0% { transform: translateY(0px); }
-50% { transform: translateY(-12px); }
-100% { transform: translateY(0px); }
 }
 
 .eyebrow{
